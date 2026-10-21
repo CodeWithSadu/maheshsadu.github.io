@@ -1,0 +1,41 @@
+{
+  "name": "Mahesh Sadu",
+  "title": "DevOps & Site Reliability Engineer",
+  "location": "Nellore, India",
+  "email": "sadumahesh97@gmail.com",
+  "summary": "4 years building and running cloud-native services for telecom and automotive clients, focused on CI/CD, Kubernetes, observability, and troubleshooting.",
+  "experience": [
+    {
+      "company": "Tata Consultancy Services",
+      "role": "DevOps Engineer",
+      "start": "2022-05",
+      "end": null,
+      "highlights": [
+        "Built and maintained Jenkins CI/CD pipelines across development and staging",
+        "Investigated pipeline, deployment, and test failures and drove root-cause fixes",
+        "Containerized and deployed Go microservices with Docker, Kubernetes, and Helm",
+        "Automated testing and operations with Python, Bash, and Robot Framework, cutting manual effort by about 30%",
+        "Monitored services with Prometheus and Grafana"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "rApp Lifecycle Management (Ericsson)",
+      "tags": ["5G", "O-RAN", "Go", "Kubernetes", "Jenkins"]
+    },
+    {
+      "name": "Automotive MATLAB and Testing (Ford)",
+      "tags": ["MATLAB", "Simulink", "MIL testing", "ISO 26262"]
+    }
+  ],
+  "skills": {
+    "core": ["Linux", "Python", "Bash", "Go", "Jenkins", "GitHub Actions", "GitLab CI", "Docker", "Kubernetes", "Helm", "Prometheus", "Grafana", "Git", "Robot Framework", "REST APIs"],
+    "cloud": ["AWS EC2", "S3", "EKS", "RDS", "IAM", "Lambda", "API Gateway"],
+    "working_knowledge": ["MySQL", "PostgreSQL", "Terraform", "Ansible", "Java"]
+  },
+  "certifications": [
+    "AWS Certified Cloud Practitioner",
+    "Google Cloud Generative AI Leader (valid to Jun 2028)"
+  ]
+}

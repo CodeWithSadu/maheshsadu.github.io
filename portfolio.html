@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mahesh Sadu | DevOps &amp; Site Reliability Engineer</title>
+<style>
+:root{--bg:#f7f8fa;--card:#fff;--text:#1b1f24;--muted:#5b6672;--accent:#0b6bcb;--line:#e3e7ec;--chip:#e8f1fb;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1318;--card:#171d25;--text:#e8ecf1;--muted:#9aa6b4;--accent:#5aa9f5;--line:#262e38;--chip:#1c2a3a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1318;--card:#171d25;--text:#e8ecf1;--muted:#9aa6b4;--accent:#5aa9f5;--line:#262e38;--chip:#1c2a3a;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:860px;margin:0 auto;padding:32px 20px 56px}
+header{padding:24px 0 8px}
+h1{font-size:2.2rem;line-height:1.15;margin:0 0 6px}
+.role{color:var(--accent);font-weight:600;font-size:1.1rem;margin:0 0 12px}
+.lead{color:var(--muted);max-width:640px;margin:0 0 18px}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:10px 18px;border-radius:999px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600}
+.btn.alt{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+section{margin-top:34px}
+h2{font-size:1.15rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);border-bottom:1px solid var(--line);padding-bottom:6px;margin:0 0 14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:14px}
+.card h3{margin:0;font-size:1.05rem}
+.meta{color:var(--muted);font-size:.9rem;margin:2px 0 8px}
+ul{margin:8px 0 0;padding-left:20px}
+li{margin:5px 0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:20px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;text-align:center}
+.stat b{display:block;font-size:1.6rem;color:var(--accent)}
+.stat span{color:var(--muted);font-size:.85rem}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:var(--chip);color:var(--text);border-radius:999px;padding:4px 12px;font-size:.88rem}
+.grp{margin-bottom:12px}
+.grp h3{font-size:.95rem;margin:0 0 6px}
+footer{margin-top:40px;color:var(--muted);font-size:.85rem;text-align:center}
+@media (max-width:480px){h1{font-size:1.8rem}main{padding:20px 16px 48px}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>Mahesh Sadu</h1>
+<p class="role">DevOps &amp; Site Reliability Engineer</p>
+<p class="lead">4 years building and running cloud-native services for telecom and automotive clients. I focus on CI/CD, Kubernetes, observability, and fast, calm troubleshooting when things break.</p>
+<div class="btns">
+<a class="btn" href="mailto:sadumahesh97@gmail.com">Email me</a>
+<a class="btn alt" href="#experience">See experience</a>
+</div>
+<div class="stats">
+<div class="stat"><b>4 yrs</b><span>DevOps experience</span></div>
+<div class="stat"><b>~30%</b><span>less manual test effort</span></div>
+<div class="stat"><b>15%</b><span>faster simulations</span></div>
+<div class="stat"><b>2</b><span>cloud certifications</span></div>
+</div>
+</header>
+
+<section id="experience">
+<h2>Experience</h2>
+<div class="card">
+<h3>DevOps Engineer, Tata Consultancy Services</h3>
+<div class="meta">May 2022 to present</div>
+<ul>
+<li>Built and maintained Jenkins CI/CD pipelines for build, test, and deployment across development and staging.</li>
+<li>Investigated pipeline, deployment, and test failures end to end, working with developers on root-cause fixes that improved release stability.</li>
+<li>Containerized and deployed Go microservices with Docker, Kubernetes, and Helm for repeatable environment promotions.</li>
+<li>Automated testing and operational tasks with Python, Bash, and Robot Framework, cutting manual effort by about 30%.</li>
+<li>Developed Go microservices with REST APIs that automate rApp lifecycle workflows: onboarding, deployment, scaling, termination.</li>
+<li>Monitored services with Prometheus and Grafana dashboards and alerts.</li>
+</ul>
+</div>
+</section>
+
+<section>
+<h2>Projects</h2>
+<div class="card">
+<h3>rApp Lifecycle Management (Ericsson)</h3>
+<div class="meta">5G and O-RAN, May 2022 to present</div>
+<ul>
+<li>Led development of rApp lifecycle management for 5G and O-RAN use cases, covering the end-to-end microservice lifecycle.</li>
+<li>Wrote Robot Framework test suites that reduced manual testing by 30% and improved coverage.</li>
+<li>Managed Jenkins pipelines to speed up releases and increase deployment frequency.</li>
+</ul>
+</div>
+<div class="card">
+<h3>Automotive MATLAB and Testing (Ford)</h3>
+<div class="meta">May 2022 to Sep 2022</div>
+<ul>
+<li>Optimized MATLAB/Simulink ECU models, improving simulation efficiency by 15%.</li>
+<li>Built MIL testing frameworks with high coverage, aligned with ISO 26262 practices, and automated model validation with M-scripting.</li>
+</ul>
+</div>
+</section>
+
+<section>
+<h2>Skills</h2>
+<div class="grp"><h3>Core</h3><div class="chips"><span class="chip">Linux</span><span class="chip">Python</span><span class="chip">Bash</span><span class="chip">Go</span><span class="chip">Jenkins</span><span class="chip">GitHub Actions</span><span class="chip">GitLab CI</span><span class="chip">Docker</span><span class="chip">Kubernetes</span><span class="chip">Helm</span><span class="chip">Prometheus</span><span class="chip">Grafana</span><span class="chip">Git</span><span class="chip">Robot Framework</span><span class="chip">REST APIs</span></div></div>
+<div class="grp"><h3>Cloud</h3><div class="chips"><span class="chip">AWS EC2</span><span class="chip">S3</span><span class="chip">EKS</span><span class="chip">RDS</span><span class="chip">IAM</span><span class="chip">Lambda</span><span class="chip">API Gateway</span></div></div>
+<div class="grp"><h3>Working knowledge</h3><div class="chips"><span class="chip">MySQL</span><span class="chip">PostgreSQL</span><span class="chip">Terraform</span><span class="chip">Ansible</span><span class="chip">Java</span></div></div>
+</section>
+
+<section>
+<h2>Certifications and Education</h2>
+<div class="card">
+<ul>
+<li>AWS Certified Cloud Practitioner</li>
+<li>Google Cloud Generative AI Leader (valid to Jun 2028)</li>
+<li>B.Tech, Electronics and Communication Engineering, JNTU Nellore, 2019</li>
+</ul>
+</div>
+</section>
+
+<section>
+<h2>Contact</h2>
+<div class="card">
+<p style="margin:0">Open to DevOps and Site Reliability roles. Reach me at <a href="mailto:sadumahesh97@gmail.com" style="color:var(--accent)">sadumahesh97@gmail.com</a>.</p>
+</div>
+</section>
+
+<footer>Mahesh Sadu · Nellore, India</footer>
+</main>
+</body>
+</html>
