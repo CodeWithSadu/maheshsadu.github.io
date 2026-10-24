@@ -116,6 +116,21 @@
         border: 1px solid var(--border);
         color: var(--text);
       }
+      @media print {
+        body {
+          background: #fff;
+          color: #111827;
+        }
+        .sheet {
+          box-shadow: none;
+          border-color: rgba(17,24,39,0.2);
+          background: #fff;
+          color: #111827;
+        }
+        .btn-row {
+          display: none;
+        }
+      }
       @media (max-width: 760px) {
         .grid { grid-template-columns: 1fr; }
         .wrap { padding: 0 14px 40px; }
@@ -180,6 +195,7 @@
         <div class="btn-row">
           <a class="btn primary" href="mailto:sadumahesh97@gmail.com">Email me</a>
           <a class="btn secondary" href="index.html">Back to portfolio</a>
+          <a class="btn secondary" href="javascript:window.print()">Print / Save as PDF</a>
         </div>
       </div>
     </div>
