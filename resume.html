@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahesh Sadu | Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #07111d;
+        --surface: #0d1a2c;
+        --surface-strong: #12243d;
+        --text: #edf4ff;
+        --muted: #9db0c9;
+        --primary: #6aa8ff;
+        --accent: #74f0c5;
+        --border: rgba(146,170,214,0.18);
+        --card: rgba(14,22,38,0.94);
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        background: linear-gradient(180deg, #07111d 0%, #0b1525 100%);
+        color: var(--text);
+        line-height: 1.7;
+      }
+      .wrap {
+        max-width: 980px;
+        margin: 40px auto;
+        padding: 0 20px 60px;
+      }
+      .sheet {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        padding: 30px 28px;
+        box-shadow: 0 20px 50px rgba(3, 8, 17, 0.42);
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: 2.5rem;
+        letter-spacing: -0.06em;
+      }
+      .title {
+        margin: 0 0 18px;
+        color: var(--primary);
+        font-weight: 700;
+        font-size: 1.2rem;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1.3fr 0.7fr;
+        gap: 24px;
+      }
+      .section {
+        margin-top: 24px;
+      }
+      .section h2 {
+        font-size: 0.8rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin-bottom: 12px;
+      }
+      .box {
+        background: rgba(255,255,255,0.02);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 16px 18px;
+      }
+      ul { margin: 0; padding-left: 18px; }
+      li { margin-bottom: 8px; }
+      .meta {
+        color: var(--muted);
+        font-size: 0.92rem;
+        margin: 0 0 10px;
+      }
+      .taglist {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .tag {
+        display: inline-block;
+        padding: 7px 10px;
+        border-radius: 999px;
+        background: rgba(106,168,255,0.09);
+        border: 1px solid rgba(106,168,255,0.22);
+        font-size: 0.78rem;
+      }
+      .btn-row {
+        margin-top: 24px;
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 18px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: 700;
+      }
+      .btn.primary {
+        background: linear-gradient(135deg, var(--primary), #8f9dff);
+        color: #091321;
+      }
+      .btn.secondary {
+        border: 1px solid var(--border);
+        color: var(--text);
+      }
+      @media (max-width: 760px) {
+        .grid { grid-template-columns: 1fr; }
+        .wrap { padding: 0 14px 40px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="sheet">
+        <h1>Mahesh Sadu</h1>
+        <p class="title">DevOps &amp; Site Reliability Engineer</p>
+
+        <div class="grid">
+          <div>
+            <div class="section">
+              <h2>Summary</h2>
+              <div class="box">
+                4 years building and running cloud-native services for telecom and automotive clients. Focused on CI/CD, Kubernetes, observability, and troubleshooting across deployment and release operations.
+              </div>
+            </div>
+
+            <div class="section">
+              <h2>Experience</h2>
+              <div class="box">
+                <strong>DevOps Engineer, Tata Consultancy Services</strong>
+                <p class="meta">May 2022 to Present</p>
+                <ul>
+                  <li>Built and maintained Jenkins CI/CD pipelines for build, test, and deployment.</li>
+                  <li>Improved release reliability by investigating pipeline and deployment failures.</li>
+                  <li>Deployed Go microservices on Docker, Kubernetes, and Helm.</li>
+                  <li>Automated testing and operational tasks using Python, Bash, and Robot Framework.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="section">
+              <h2>Contact</h2>
+              <div class="box">
+                <p><strong>Email:</strong><br />sadumahesh97@gmail.com</p>
+                <p><strong>Location:</strong><br />Nellore, India</p>
+              </div>
+            </div>
+
+            <div class="section">
+              <h2>Skills</h2>
+              <div class="box taglist">
+                <span class="tag">Linux</span>
+                <span class="tag">Python</span>
+                <span class="tag">Go</span>
+                <span class="tag">Kubernetes</span>
+                <span class="tag">Docker</span>
+                <span class="tag">Jenkins</span>
+                <span class="tag">AWS</span>
+                <span class="tag">Prometheus</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn-row">
+          <a class="btn primary" href="mailto:sadumahesh97@gmail.com">Email me</a>
+          <a class="btn secondary" href="index.html">Back to portfolio</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
